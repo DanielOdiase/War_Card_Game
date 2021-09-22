@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: rgb(8, 97, 8);
+    height: 100vh;
+}
+body{
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: space-between;
+}
+div.top{
+    display: inline-flex;
+    align-self: flex-start;
+    
+}
+p,h3{
+    color:white;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+}
+button{
+    background-color: yellow;
+    cursor: pointer;
+}
+button.draw-class{
+    padding:10px;
+    font-weight: bold;
+    font-size:15px;
+    align-self: stretch;
+}
+button.shuffle-class{
+align-self: flex-start;
+font-size: 15px;
+padding:10px;
+font-weight: bolder;
+}
+
+div.img-holder1{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 120px;
+    width: calc(120px * 5 / 7);
+    margin-bottom: 20px;
+}
+
+.cardClass{
+    border-radius: 5px;
+    height: 120px;
+    width: calc(120px * 5 / 7);
+    margin-bottom: 20px;
+}
+
+button:disabled{
+    cursor:not-allowed
+}
